@@ -18,8 +18,9 @@ button.addEventListener("click", async ()=> {
     rain.innerText = " ";
     sum.innerText = " ";
 
-    let response = await fetch(`http://localhost:3001/weather?location=${input.value}`)
+    let response = await fetch(`/weather?location=${input.value}`)
     let data = await response.json()
+
     name.innerText = data.name
     locationTitle.innerText = data.place
     temp.innerText = data.temp
