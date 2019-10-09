@@ -2,6 +2,7 @@ const {promisify} = require("util")
 const request = require("request")
 const promisifiedRequest =  promisify(request)
 const {locationApi} = require("./keys")
+const locationApi = "pk.eyJ1IjoidG9ta2lyYnkiLCJhIjoiY2swbnFpOTB6MDBsdTNsbjZmaWR3d2k1YiJ9.qXK_Mqd4z6MMDd-OtRMedg" 
 
 
 
